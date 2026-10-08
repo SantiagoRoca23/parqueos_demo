@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env / secrets
+.env
+.env.backup
+.env.local
+*.pem
+
+# PHP / Composer
+/vendor/
+composer.phar
+
+# Node (si se usa Vite en Laravel)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Laravel
+web/vendor/
+web/node_modules/
+web/public/storage
+web/storage/*.key
+web/storage/framework/cache/*
+web/storage/framework/sessions/*
+web/storage/framework/views/*
+web/storage/logs/*
+!web/storage/framework/cache/.gitignore
+!web/storage/framework/sessions/.gitignore
+!web/storage/framework/views/.gitignore
+!web/storage/logs/.gitignore
+web/bootstrap/cache/*.php
+!web/bootstrap/cache/.gitignore
+
+# Builds / logs
+*.log
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+
+# Docs temporales locales
+diapositivas_github.txt
+preview_*.png
