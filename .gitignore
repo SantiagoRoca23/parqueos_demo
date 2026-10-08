@@ -50,3 +50,7 @@ auth.json
 # Docs temporales locales
 diapositivas_github.txt
 preview_*.png
+
+docs/word/~$*
+*.tmp
+
